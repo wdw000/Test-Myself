@@ -6,128 +6,210 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>현대백화점 클론 코딩</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/design.css">
+    <link rel="stylesheet" href="./css/detail.css">
+
+    <script src="./js/slide.js" defer></script>
+    <script src="./js/brand.js" defer></script>
 </head>
 
 <body>
-    <!-- -------------------------header------------------------- -->
-    <header>
-        <h1>현대백화점</h1>
-        <nav class="header_navigation">
-            <h2>Main nav</h2>
-            <ul>
-                <li>ABOUT US</li>
-                <li>지점안내</li>
-                <li>브랜드</li>
-                <li>이벤트</li>
-                <li>쇼핑정보</li>
-                <li>스토리</li>
-            </ul>
-        </nav>
+    <div class="wrap_bg">
+        <!-- -------------------------header------------------------- -->
+        <header>
+            <h1>현대백화점</h1>
+            <nav class="header_navigation">
+                <h2 class="hidden">Main nav</h2>
+                <ul>
+                    <li>ABOUT US</li>
+                    <li>지점안내</li>
+                    <li>브랜드</li>
+                    <li>이벤트</li>
+                    <li>쇼핑정보</li>
+                    <li>스토리</li>
+                </ul>
+            </nav>
 
-        <div class="header_menu">
-            <h2>Main menu</h2>
-            <ul>
-                <li>인터넷면세점</li>
-                <li>lang</li>
-                <li>instagram</li>
-                <li>facebook</li>
-            </ul>
-        </div>
-    </header>
+            <div class="header_menu">
+                <h2 class="hidden">Main menu</h2>
+                <ul>
+                    <li>인터넷면세점</li>
+                    <li>lang</li>
+                    <li>instagram</li>
+                    <li>facebook</li>
+                </ul>
+            </div>
+        </header>
+        <hr>
 
-    <!-- -------------------------main------------------------- -->
-    <main>
-        <!-- Under header content -->
-        <section class="under_header">
-            <h2>Under header content</h2>
-        </section>
+        <!-- -------------------------main------------------------- -->
+        <main>
+            <!-- Main content -->
+            <section class="main_content">
+                <h2 class="hidden">Main Content</h2>
 
-        <!-- ----------Brand------------ -->
-        <section class="brand">
-            <h2>Brand</h2>
-            <fieldset>
-                <legend>어떤 브랜드를 찾으세요?</legend>
-                <input type="search" name="search_brand" id="search" placeholder="#구찌 #셀린느 #프라다">
-                <button type="submit">submit</button>
-            </fieldset>
+                <div class="scroll_box_wrap">
+                    <div class="scroll_box">
+                        <p>2021 FW SEASON OFF</p>
+                        <p>온오프라인 통합 신규 가입 프로모션</p>
+                        <p>구매 금액별 PAYBACK</p>
+                        <p>온오프라인 LINK 구매 인증 이벤트</p>
+                        <p>스페셜 쇼핑 큐레이션</p>
+                        <p>현대백화점면세점 스페셜 혜택</p>
+                        <p>WEDDING 이벤트</p>
+                        <p>슈퍼 PICK 프로모션</p>
+                        <p>SPECIAL PICK WINTER ITEMS</p>
+                        <p>WINTER GIFT 사은품 혜택</p>
+                    </div>
+                </div>
 
-            <article class="brand_board">
+                <div class="scroll_content">
+                    <p class="scroll_title"></p>
+                    <p class="scroll_subtitle"></p>
+                    <button>무역센터점</button>
+                    <button>이벤트</button>
+                </div>
+
+                <div class="scroll_pause_box">
+                    <p class="scroll_count"></p>
+                    <button class="scroll_pause_btn"></button>
+                </div>
+            </section>
+    </div>
+
+    <div></div>
+
+    <!-- ----------Brand------------ -->
+    <section class="brand">
+        <h2 class="hidden">Brand</h2>
+        <fieldset>
+            <legend>어떤 브랜드를 찾으세요?</legend>
+
+            <input type="search" name="search_brand" id="search" placeholder="#구찌 #셀린느 #프라다">
+            <button type="submit"></button>
+
+        </fieldset>
+
+        <div>
+            <div class="brand_wrap">
                 <h3 class="brand_new">NEW</h3>
                 <h3 class="brand_best">BEST</h3>
                 <button class="brand_show_plus">brand show plus</button>
+            </div>
 
-                <div>
-                    slide show
+            <div class="slide_brand">
+                <div class="item0">
+                    <img src="./media/brand/new_item5.jpg">
+                    <p>new item5</p>
                 </div>
 
-                <div>prosses bar</div>
-            </article>
-        </section>
-
-        <!-- ----------Store---------- -->
-        <section class="Store">
-            <h2>Store</h2>
-
-            <dl>
-                <h3>동대문점</h3>
-                <dt>운영시간</dt>
-                <dd>10:30 ~23:00(연중무휴)</dd>
-                <dt>지점위치</dt>
-                <dd>서울특별시 중구 장충단로 275 두산타워빌딩</dd>
-                <dt>대표전화</dt>
-                <dd>1811-6688</dd>
-
-                <h3>인천공항점</h3>
-                <dt>운영시간</dt>
-                <dd>06:30 ~ 21:30(연중무휴)</dd>
-                <dt>지점위치</dt>
-                <dd>인천광역시 중구 공항로 272, 인천국제공항 제1터미널</dd>
-                <dt>대표전화</dt>
-                <dd>1811-6688</dd>
-
-                <h3>무역센터점</h3>
-                <dt>운영시간</dt>
-                <dd>09:00 ~ 20:30(연중무휴)</dd>
-                <dt>지점위치</dt>
-                <dd>서울특별시 강남구 테헤란로 517</dd>
-                <dt>대표전화</dt>
-                <dd>1811-6688</dd>
-            </dl>
-        </section>
-
-        <!-- ----------Media---------- -->
-        <section class="media">
-            <h2>MEDIA</h2>
-
-            <article>
-                <h3 class="media_video">VIDEO</h3>
-                <h3 class="media_photo">PHOTO</h3>
-
-                <div>
-                    slide show
+                <div class="item1">
+                    <img src="./media/brand/new_item6.jpg">
+                    <p>new item4</p>
                 </div>
 
-                <button class="media_show_more">MORE</button>
-            </article>
-        </section>
+                <div class="item2">
+                    <img src="./media/brand/new_item1.jpg">
+                    <p>new item1</p>
+                </div>
 
-        <!-- ----------SNS---------- -->
-        <section class="SNS">
-            <h2>SNS</h2>
-            <div>
-                sns content
-            </div>
-            <button class="SNS_show_more">MORE</button>
-        </section>
+                <div class="item3">
+                    <img src="./media/brand/new_item2.jpg">
+                    <p>new item2</p>
+                </div>
 
-        <!-- ----------NOTICE---------- -->
-        <section>
-            <h2>NOTICE</h2>
-            <div>
-                notice content
+                <div class="item4">
+                    <img src="./media/brand/new_item3.jpg">
+                    <p>new item3</p>
+                </div>
             </div>
-            <button class="notice_show_plus">notice show plus</button>
-        </section>
+
+            <div>prosses bar</div>
+        </div>
+    </section>
+
+    <!-- ----------Store---------- -->
+    <section class="store">
+        <h2 class="hidden">Store</h2>
+        
+        <article>
+            <div>
+                <img src="./media/store/item1.jpg">
+                <div>
+                    <h3>동대문점</h3>
+                    <p>운영시간 10:30 ~23:00(연중무휴)</p>
+                    <p>지점위치 서울특별시 중구 장충단로 275 두산타워빌딩</p>
+                    <p>대표전화 1811-6688</p>
+                </div>
+            </div>
+        </article>
+        
+        <article>
+            <div>
+                <img src="./media/store/item2.jpg">
+                <div>
+                    <h3>인천공항점</h3>
+                    <dt>운영시간</dt>
+                    <dd>06:30 ~ 21:30(연중무휴)</dd>
+                    <dt>지점위치</dt>
+                    <dd>인천광역시 중구 공항로 272, 인천국제공항 제1터미널</dd>
+                    <dt>대표전화</dt>
+                    <dd>1811-6688</dd>
+                </div>
+            </div>
+        </article>
+        
+        <article>
+            <div>
+                <img src="./media/store/item3.jpg">
+                <div>
+                    <h3>무역센터점</h3>
+                    <dt>운영시간</dt>
+                    <dd>09:00 ~ 20:30(연중무휴)</dd>
+                    <dt>지점위치</dt>
+                    <dd>서울특별시 강남구 테헤란로 517</dd>
+                    <dt>대표전화</dt>
+                    <dd>1811-6688</dd>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- ----------Media---------- -->
+    <section class="media">
+        <h2>MEDIA</h2>
+
+        <article>
+            <h3 class="media_video">VIDEO</h3>
+            <h3 class="media_photo">PHOTO</h3>
+
+            <div>
+                slide show
+            </div>
+
+            <button class="media_show_more">MORE</button>
+        </article>
+    </section>
+
+    <!-- ----------SNS---------- -->
+    <section class="sns">
+        <h2>SNS</h2>
+        <div>
+            sns content
+        </div>
+        <button class="SNS_show_more">MORE</button>
+    </section>
+
+    <!-- ----------NOTICE---------- -->
+    <section class="notice">
+        <h2>NOTICE</h2>
+        <div>
+            notice content
+        </div>
+        <button class="notice_show_plus">notice show plus</button>
+    </section>
     </main>
 
     <footer>
