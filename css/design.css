@@ -46,3 +46,9 @@ header {
 .item1, .item3{
     filter: grayscale(100%);
 }
+
+/* store */
+.store > article > div {
+    background-clip: content-box;
+    background-color: #333;
+}

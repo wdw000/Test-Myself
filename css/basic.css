@@ -163,3 +163,100 @@ header ul{
     max-width: 1920px;
     margin: 0 auto;
 }
+
+.store > article > div {
+    display: flex;
+    align-items: center;
+    height: 580px;
+    padding: 70px 0;
+}
+
+.store > article > div > img {
+    flex: 1;
+    height: 100%;
+    object-fit: cover;
+}
+
+.store > article > div > div {
+    flex: 1;
+}
+
+/* Media */
+
+.media_subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.slide_media_wrap {
+    max-width: 1920px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slide_media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slide_media > article {
+    margin: 0 25px;
+}
+
+.media_show_more {
+    display: block;
+    margin: 0 auto;
+}
+
+/* sns */
+.sns {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.sns > div {
+    display: flex;
+    justify-content: center;
+}
+
+.sns > div > img {
+    height: 344px;
+    width: 344px;
+    object-fit: cover;
+    margin: 0 12px;
+}
+
+.sns > button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Notice */
+
+.notice {
+    width: 1080px;
+    height: 236px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.notice_title {
+    width: 270px;
+    position: relative;
+}
+
+.notice_show_plus {
+    position: absolute;
+    bottom: 0;
+}
+
+.notice_board {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-around;
+}
+
+.notice_board span {
+    float: right;
+}

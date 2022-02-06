@@ -68,3 +68,21 @@ header > .header_menu > ul > li {
     font-size: 30px;
     text-align: center;
 }
+
+/* Store */
+/* Media */
+.media > h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* SNS */
+.sns h2 {
+    text-align: center;
+}
+
+/* Notice */
+.notice_board {
+    font-size: 15px;
+}
