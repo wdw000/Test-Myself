@@ -1,0 +1,23 @@
+/* reset */
+
+html, body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+dd {
+    margin: 0;
+}

@@ -1,0 +1,48 @@
+
+.wrap_bg {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+/* ----------------header------------- */
+
+header {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* ----------------main------------- */
+.scroll_box {
+    animation: move_list 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move_list {
+    0% {transform: translateY(0px);}
+    10% {transform: translateY(0px);}
+    20% {transform: translateY(-58px);}
+    30% {transform: translateY(-116px);}
+    40% {transform: translateY(-174px);}
+    50% {transform: translateY(-232px);}
+    60% {transform: translateY(-232px);}
+    70% {transform: translateY(-232px);}
+    80% {transform: translateY(-232px);}
+    90% {transform: translateY(-232px);}
+    100% {transform: translateY(-232px);}
+}
+
+.scroll_pause_box {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+/* brand */
+
+.brand fieldset input {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.item1, .item3{
+    filter: grayscale(100%);
+}
