@@ -33,7 +33,7 @@ header > h1 {
 
 .main_nav {
     display: flex;
-    max-width: 1080px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto;
 }
