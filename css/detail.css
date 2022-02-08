@@ -2,9 +2,9 @@
 
 /* --------------------header-------------------- */
 header > nav > ul > li{
-    margin: 0 20px;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 header > .header_menu > ul > li {

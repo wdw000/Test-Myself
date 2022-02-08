@@ -13,30 +13,52 @@ html {
 
 /* ------------------header----------------- */
 header {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
     height: 96px;
     max-width: 1920px;
     margin: 0 auto;
+    display: flex;
+    position: relative;
+    align-items: center;
 }
 
-header h1 {
+header > h1 {
     position: absolute;
     left: 0;
-    margin-left: 10px;
 }
 
-header .header_menu {
+.header_nav {
+    flex:1;
+    display: flex;
+}
+
+.main_nav {
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main_nav > li {
+    flex:1;
+}
+
+.header_menu {
     position: absolute;
     right: 0;
-    margin-right: 10px;
 }
 
-header ul{
+.header_menu > ul{
     display: flex;
-    justify-content: space-between;
+}
+
+.s_nav {
+    display: none;
+}
+
+.wrap_header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 /* ------------------main----------------- */
