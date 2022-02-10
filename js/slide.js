@@ -22,6 +22,19 @@ const subTitleParas = [
     '쇼핑이 더 즐거워지는'
 ];
 
+const subTitleHeight = [
+    '0px',
+    '-58px',
+    '-116px',
+    '-174px',
+    '-232px',
+    '-232px',
+    '-232px',
+    '-232px',
+    '-232px',
+    '-232px'
+];
+
 let count = 0;
 
 for (let i = 0; i < scrollParas.length; i++) {
@@ -38,6 +51,8 @@ function changeContent() {
     for (const scrollPara of scrollParas) {
         scrollPara.style.color = '#444';
     }
+
+    scrollBox.style.transform = `translateY(${subTitleHeight[count]})`;
 
     scrollParas[count].style.color = '#000';
     bgImg.style.backgroundImage = `url('${url}')`;
