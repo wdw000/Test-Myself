@@ -12,7 +12,66 @@ header {
 }
 
 .wrap_header {
+    background-color: rgba(0, 0, 0, 0);
     border-bottom: solid gray 1px;
+}
+
+.wrap_header_show {
+    background-color: white;
+    border: none;
+    animation: show_header 0.5s;
+    animation-iteration-count: 1;
+}
+
+.wrap_header_hide {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: solid gray 1px;
+    animation: hide_header 0.5s;
+    animation-iteration-count: 1;
+}
+
+.wrap_sNav_show {
+    background-color: white;
+    animation: show_snav 0.5s;
+    animation-iteration-count: 1;
+}
+
+.wrap_sNav_hide {
+    background-color: rgba(255, 255, 255, 0);
+    animation: hide_snav 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes show_header {
+    0% {background-color: rgba(255, 255, 255, 0);}
+    100% {background-color: rgba(255, 255, 255, 1);}
+}
+
+@keyframes hide_header {
+    0% {background-color: rgba(255, 255, 255, 1);}
+    100% {background-color: rgba(255, 255, 255, 0);} 
+}
+
+@keyframes show_snav {
+    0% {
+        opacity: 0;
+        height: 92px;
+    }
+    100% {
+        opacity: 1;
+        height: 400px;
+    } 
+}
+
+@keyframes hide_snav {
+    0% {
+        background-color: rgba(255, 255, 255, 1);
+        height: 400px;
+    }
+    100% {
+        background-color: rgba(255, 255, 255, 0);
+        height: 92px;
+    } 
 }
 
 /* ----------------main------------- */

@@ -1,18 +1,25 @@
 /* font and btn design */
 
 /* --------------------header-------------------- */
-header > nav > ul > li{
+
+.main_nav > div {
     font-size: 20px;
-    font-weight: bold;
     text-align: center;
 }
 
-header > .header_menu > ul > li {
-    margin: 0 10px;
-    font-size: 15px;
+.main_nav > div > li {
     font-weight: bold;
 }
 
+.s_nav > li{
+    font-size: 15px;
+    margin: 30px 0;
+    color:gray;
+}
+
+.s_nav > li:hover{
+    color: crimson;
+}
 /* --------------------main-------------------- */
 
 /* Main content */

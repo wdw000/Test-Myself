@@ -18,7 +18,7 @@ header {
     margin: 0 auto;
     display: flex;
     position: relative;
-    align-items: center;
+    top: 36px;
 }
 
 header > h1 {
@@ -33,13 +33,14 @@ header > h1 {
 
 .main_nav {
     display: flex;
-    max-width: 800px;
     width: 100%;
+    max-width: 900px;
     margin: 0 auto;
+    justify-content: center;
 }
 
-.main_nav > li {
-    flex:1;
+.main_nav > div {
+    flex: 1;
 }
 
 .header_menu {
@@ -52,13 +53,23 @@ header > h1 {
 }
 
 .s_nav {
+    margin-top: 72px;
     display: none;
 }
 
-.wrap_header {
+.wrap_header, .wrap_header_show, .wrap_header_hide {
     position: fixed;
     width: 100%;
+    height: 92px;
     z-index: 1000;
+}
+
+.wrap_sNav, .wrap_sNav_hide {
+    height: 92px;
+}
+
+.wrap_sNav_show {
+    height: 400px;
 }
 
 /* ------------------main----------------- */
