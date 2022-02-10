@@ -1,7 +1,5 @@
-/* font and btn design */
-
+/* font */
 /* --------------------header-------------------- */
-
 .main_nav > div {
     font-size: 20px;
     text-align: center;
@@ -9,6 +7,11 @@
 
 .main_nav > div > li {
     font-weight: bold;
+}
+
+.header_menu > ul > li{
+    font-size: 15px;
+    margin: 0 10px;
 }
 
 .s_nav > li{
@@ -19,6 +22,10 @@
 
 .s_nav > li:hover{
     color: crimson;
+}
+
+.header_icon {
+    height: 25px;
 }
 /* --------------------main-------------------- */
 
@@ -92,4 +99,30 @@
 /* Notice */
 .notice_board {
     font-size: 15px;
+}
+
+
+/* btn */
+
+.scroll_pause_btn {
+    background-image: url(../media/icon/pause.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button[class*="plus"]::after {
+    content: "";
+    background-image: url('../media/icon/plus.png');
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+button[class*="more"] {
+    font-size: 18px;
+    text-decoration: underline;
 }

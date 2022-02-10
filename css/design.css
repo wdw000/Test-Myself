@@ -75,24 +75,6 @@ header {
 }
 
 /* ----------------main------------- */
-/* .scroll_box {
-    animation: move_list 30s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes move_list {
-    0% {transform: translateY(0px);}
-    10% {transform: translateY(0px);}
-    20% {transform: translateY(-58px);}
-    30% {transform: translateY(-116px);}
-    40% {transform: translateY(-174px);}
-    50% {transform: translateY(-232px);}
-    60% {transform: translateY(-232px);}
-    70% {transform: translateY(-232px);}
-    80% {transform: translateY(-232px);}
-    90% {transform: translateY(-232px);}
-    100% {transform: translateY(-232px);}
-} */
 
 .scroll_pause_box {
     background-color: rgba(0, 0, 0, 0.5);
