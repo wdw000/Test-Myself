@@ -11,15 +11,16 @@
     <link rel="stylesheet" href="./css/design.css">
     <link rel="stylesheet" href="./css/detail.css">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <script src="./js/slide.js" defer></script>
     <script src="./js/brand.js" defer></script>
     <script src="./js/store.js" defer></script>
     <script src="./js/media.js" defer></script>
-    <script src="./js/nav.js"></script>
+    <script src="./js/nav.js" defer></script>
 
-    
+
 </head>
 
 <body>
@@ -27,68 +28,84 @@
         <!-- -------------------------header------------------------- -->
 
         <div class="wrap_header">
-            <header>
-                <h1>현대백화점</h1>
-                <nav class="header_nav">
-                    <h2 class="hidden">Main nav</h2>
-                    <ul class="main_nav">
-                        <li>ABOUT US</li>
-                        <ul class="s_nav">
-                            <li>회사소개</li>
-                            <li>사회적책임경영</li>
-                            <li>소비자중심경영</li>
-                            <li>NEWS</li>
-                            <li>인재채용</li>
+            <div class="wrap_sNav">
+                <header>
+                    <h1>현대백화점</h1>
+                    <nav class="header_nav">
+                        <h2 class="hidden">Main nav</h2>
+
+                        <ul class="main_nav">
+                            <div>
+                                <li>ABOUT US</li>
+                                <ul class="s_nav">
+                                    <li>회사소개</li>
+                                    <li>사회적책임경영</li>
+                                    <li>소비자중심경영</li>
+                                    <li>NEWS</li>
+                                    <li>인재채용</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <li>지점안내</li>
+                                <ul class="s_nav">
+                                    <li>무역센터점</li>
+                                    <li>동대문점</li>
+                                    <li>인천공항점</li>
+                                    <li>인터넷면세점</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <li>브랜드</li>
+                                <ul class="s_nav">
+                                    <li>브랜드검색</li>
+                                    <li>브랜드</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <li>이벤트</li>
+                                <ul class="s_nav">
+                                    <li>이벤트</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <li>쇼핑정보</li>
+                                <ul class="s_nav">
+                                    <li>면세점멤버십</li>
+                                    <li>H.Point 멤버십</li>
+                                    <li>쇼핑가이드</li>
+                                    <li>공지사항</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <li>스토리</li>
+                                <ul class="s_nav">
+                                    <li>SNS</li>
+                                    <li>광고</li>
+                                </ul>
+                            </div>
                         </ul>
-                        <li>지점안내</li>
-                        <ul class="s_nav">
-                            <li>무역센터점</li>
-                            <li>동대문점</li>
-                            <li>인천공항점</li>
+
+                    </nav>
+
+                    <div class="header_menu">
+                        <h2 class="hidden">Main menu</h2>
+                        <ul>
                             <li>인터넷면세점</li>
+                            <li>lang</li>
+                            <li>instagram</li>
+                            <li>facebook</li>
                         </ul>
-                        <li>브랜드</li>
-                        <ul class="s_nav">
-                            <li>브랜드검색</li>
-                            <li>브랜드</li>
-                        </ul>
-                        <li>이벤트</li>
-                        <ul class="s_nav">
-                            <li>이벤트</li>
-                        </ul>
-                        <li>쇼핑정보</li>
-                        <ul class="s_nav">
-                            <li>면세점멤버십</li>
-                            <li>H.Point 멤버십</li>
-                            <li>쇼핑가이드</li>
-                            <li>공지사항</li>
-                        </ul>
-                        <li>스토리</li>
-                        <ul class="s_nav">
-                            <li>SNS</li>
-                            <li>광고</li>
-                        </ul>
-                    </ul>
-                </nav>
-        
-                <div class="header_menu">
-                    <h2 class="hidden">Main menu</h2>
-                    <ul>
-                        <li>인터넷면세점</li>
-                        <li>lang</li>
-                        <li>instagram</li>
-                        <li>facebook</li>
-                    </ul>
-                </div>
-            </header>
+                    </div>
+                </header>
+            </div>
         </div>
-    
+
         <!-- -------------------------main------------------------- -->
         <main>
             <!-- Main content -->
             <section class="main_content">
                 <h2 class="hidden">Main Content</h2>
-    
+
                 <div class="scroll_box_wrap">
                     <div class="scroll_box">
                         <p>2021 FW SEASON OFF</p>
@@ -103,17 +120,17 @@
                         <p>WINTER GIFT 사은품 혜택</p>
                     </div>
                 </div>
-    
+
                 <div class="scroll_content">
                     <p class="scroll_title"></p>
                     <p class="scroll_subtitle"></p>
                     <button>무역센터점</button>
                     <button>이벤트</button>
                 </div>
-    
+
                 <div class="scroll_pause_box">
                     <p class="scroll_count"></p>
-                    <button class="scroll_pause_btn"></button>
+                    <button class="scroll_pause_btn">pause</button>
                 </div>
             </section>
     </div>
@@ -170,7 +187,7 @@
     <!-- ----------Store---------- -->
     <section class="store">
         <h2 class="hidden">Store</h2>
-        
+
         <article class="store1">
             <div>
                 <img src="./media/store/item1.jpg">
@@ -182,7 +199,7 @@
                 </div>
             </div>
         </article>
-        
+
         <article class="store2" hidden>
             <div>
                 <img src="./media/store/item2.jpg">
@@ -194,7 +211,7 @@
                 </div>
             </div>
         </article>
-        
+
         <article class="store3" hidden>
             <div>
                 <img src="./media/store/item3.jpg">
@@ -220,17 +237,17 @@
 
             <div class="slide_media_wrap">
                 <div class="slide_media">
-            
+
                     <article>
                         <img src="./media/store/item3.jpg" alt="">
                         <p></p>
                     </article>
-            
+
                     <article>
                         <img src="./media/store/item1.jpg" alt="">
                         <p></p>
                     </article>
-            
+
                     <article>
                         <img src="./media/store/item2.jpg" alt="">
                         <p></p>
