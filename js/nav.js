@@ -1,16 +1,36 @@
 $(document).ready(function () {
     $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
+        const scroll = $(window).scrollTop();
+
         if (scroll > 1) {
-            $(".wrap_header").css({
-                "background-color": "#fff",
-                "border": "none"
-            });
+            $(".wrap_header").attr("class", "wrap_header_show");
+            $(".wrap_header_hide").attr("class", "wrap_header_show");
         } else {
-            $(".wrap_header").css({
-                "background-color": "rgba(0,0,0,0)",
-                "border-bottom": "solid gray 1px"
-            });
+            $(".wrap_header_show").attr("class", "wrap_header_hide");
         }
+    });
+});
+
+const sNavBox = document.querySelector('.wrap_sNav');
+const navTitle = document.querySelectorAll('.main_nav > div > li');
+const sNav = document.querySelectorAll('.s_nav');
+const headerBox = document.querySelector('.wrap_header');
+
+navTitle.forEach(element => {
+    element.addEventListener('pointerover', () => {
+        sNavBox.className = 'wrap_sNav_show';
+        
+        sNav.forEach(element => {
+            element.style.display = 'block';
+        });
+    });
+});
+
+sNavBox.addEventListener('mouseleave', () => {
+
+    sNavBox.className = 'wrap_sNav_hide';
+
+    sNav.forEach(element => {
+        element.style.display = 'none';
     });
 });
