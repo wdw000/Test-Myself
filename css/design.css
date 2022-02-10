@@ -75,7 +75,7 @@ header {
 }
 
 /* ----------------main------------- */
-.scroll_box {
+/* .scroll_box {
     animation: move_list 30s;
     animation-iteration-count: infinite;
 }
@@ -92,7 +92,7 @@ header {
     80% {transform: translateY(-232px);}
     90% {transform: translateY(-232px);}
     100% {transform: translateY(-232px);}
-}
+} */
 
 .scroll_pause_box {
     background-color: rgba(0, 0, 0, 0.5);

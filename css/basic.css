@@ -87,6 +87,7 @@ header > h1 {
 
 .scroll_box_wrap {
     height: 350px;
+    margin-top: 92px;
     overflow: hidden;
 }
 
