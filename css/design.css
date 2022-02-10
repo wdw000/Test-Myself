@@ -76,6 +76,10 @@ header {
 
 /* ----------------main------------- */
 
+.bg_box {
+    background-color: rgb(245, 245, 245);
+}
+
 .scroll_pause_box {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
@@ -100,10 +104,16 @@ header {
 
 /* Media */
 
+.media_gray {
+    filter: grayscale(100%);
+}
+
 /* sns */
 
 /* notice */
-
+.notice_board > p {
+    border-bottom: solid gray 1px;
+}
 /* footer */
 footer {
     background-color: #333;

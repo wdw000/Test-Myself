@@ -84,6 +84,27 @@
 }
 
 /* Store */
+.store > article > div {
+    color: white;
+}
+
+.store > article > div h3 {
+    font-size: 40px;
+    margin: 30px 0;
+    margin-left: 100px;
+}
+
+.store > article > div p {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-left: 100px;
+}
+
+.store > article > div span {
+    margin-left: 30px;
+    font-weight: lighter;
+}
+
 /* Media */
 .media > h2 {
     font-size: 40px;
@@ -91,12 +112,26 @@
     text-align: center;
 }
 
+.media_subtitle > h3{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0 10px;
+}
+
 /* SNS */
 .sns h2 {
     text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 10px 0;
 }
 
 /* Notice */
+.notice h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
 .notice_board {
     font-size: 15px;
 }
@@ -125,4 +160,9 @@ button[class*="plus"]::after {
 button[class*="more"] {
     font-size: 18px;
     text-decoration: underline;
+}
+
+.brand > fieldset > button {
+    background-image: url(../media/icon/find.png);
+    background-size: cover;
 }
