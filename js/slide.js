@@ -68,8 +68,10 @@ pauseBtn.addEventListener('click', () => {
     if(pauseBtn.textContent === 'pause') {
         clearInterval(changeInterval);
         pauseBtn.textContent = 'start';
+        pauseBtn.style.backgroundImage = 'url(./media/icon/start.png';
     } else if (pauseBtn.textContent === 'start') {
         pauseBtn.textContent = 'pause';
+        pauseBtn.style.backgroundImage = 'url(./media/icon/pause.png';
         changeInterval = setInterval(changeContent, 3000);
     }
 });
