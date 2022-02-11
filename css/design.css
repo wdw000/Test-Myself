@@ -118,3 +118,15 @@ header {
 footer {
     background-color: #333;
 }
+
+.footer_underline {
+    border-bottom: solid gray 1px;
+}
+
+.extend_fheader > img {
+    transform: rotate(180deg);
+}
+
+.footer_extend_box {
+    background-color: rgb(80,80,80);
+}

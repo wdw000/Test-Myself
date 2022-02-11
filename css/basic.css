@@ -304,6 +304,7 @@ header > h1 {
 
 .notice_board {
     display: flex;
+    flex: auto;
     flex-direction: column;
 }
 
@@ -314,4 +315,84 @@ header > h1 {
 
 .notice_board span {
     float: right;
+}
+
+/* ---------------------------------footer----------------------------- */
+footer {
+    height: 409px;
+    position: relative;
+}
+
+.footer_underline {
+    width: 100%;
+    height: 92px;
+    position: absolute;
+}
+
+.fheader {
+    height: 92px;
+    position: relative;
+}
+
+.fheader > p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: fit-content;
+    margin: auto;
+}
+
+.extend_fheader {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: fit-content;
+    margin: auto;
+}
+
+.extend_fheader > *{
+    display: inline;
+}
+
+.extend_fheader > img {
+    height: 19px;
+    margin-left: 5px;
+}
+
+.wrap_footer {
+    max-width: 1080px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.footer_content > p{
+    margin-bottom: 10px;
+}
+
+.footer_content {
+    height: fit-content;
+    margin-top: 50px;
+}
+
+.wrap_footer > nav{
+    position: absolute;
+    display: none;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 10;
+}
+
+.wrap_footer > nav > div > h3 + ul > li{
+    display: inline-block;
+}
+
+.footer_extend_box {
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: 92px;
 }

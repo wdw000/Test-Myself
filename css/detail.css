@@ -136,7 +136,53 @@
     font-size: 15px;
 }
 
+/* -----------------footer---------------- */
+.fheader > p, .extend_fheader > h2 {
+    color: white;
+    font-size: 15px;
+}
 
+.footer_content > p {
+    font-size: 18px;
+    color: #999;
+}
+
+.footer_content span {
+    color: white;
+    font-size: 23px;
+    margin-right: 20px;
+}
+
+.footer_content > p > :last-child {
+    margin-left: 20px;
+}
+
+.footer_content > :nth-child(2) {
+    word-spacing: 30px;
+    margin: 30px 0;
+}
+
+.footer_content > :nth-child(n + 3) {
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
+
+.footer_content > :last-child {
+    margin-top: 30px;
+}
+
+.wrap_footer > nav h3 {
+    color: white;
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+.wrap_footer > nav li {
+    color: #999;
+    font-size: 15px;
+    margin: 10px 0;
+    margin-right: 25px;
+}
 /* btn */
 
 .scroll_pause_btn {
