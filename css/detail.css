@@ -183,6 +183,11 @@
     margin: 10px 0;
     margin-right: 25px;
 }
+
+.wrap_footer > nav li:hover {
+    color: white;
+    cursor: pointer;
+}
 /* btn */
 
 .scroll_pause_btn {
