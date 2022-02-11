@@ -5,8 +5,16 @@ $(document).ready(function () {
         if (scroll > 1) {
             $(".wrap_header").attr("class", "wrap_header_show");
             $(".wrap_header_hide").attr("class", "wrap_header_show");
+            
+            $(".totop").css({
+                "display":"block"
+            });
+
         } else {
             $(".wrap_header_show").attr("class", "wrap_header_hide");
+            $(".totop").css({
+                "display":"none"
+            });
         }
     });
 });
@@ -19,7 +27,6 @@ const headerBox = document.querySelector('.wrap_header');
 navTitle.forEach(element => {
     element.addEventListener('pointerover', () => {
         sNavBox.className = 'wrap_sNav_show';
-        
         sNav.forEach(element => {
             element.style.display = 'block';
         });
