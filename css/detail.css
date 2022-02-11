@@ -1,5 +1,9 @@
 /* font */
 /* --------------------header-------------------- */
+header h1, header li, header img {
+    cursor: pointer;
+}
+
 .main_nav > div {
     font-size: 20px;
     text-align: center;
@@ -107,6 +111,10 @@
 }
 
 /* Media */
+.media h2, .media h3 {
+    cursor: pointer;
+}
+
 .media > h2 {
     font-size: 40px;
     font-weight: lighter;
@@ -143,9 +151,15 @@
 }
 
 /* -----------------footer---------------- */
+
+
 .fheader > p, .extend_fheader > h2 {
     color: white;
     font-size: 15px;
+}
+
+.fheader > p, .extend_fheader > img {
+    cursor: pointer;
 }
 
 .footer_content > p {
