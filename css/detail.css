@@ -119,6 +119,11 @@
     margin: 0 10px;
 }
 
+.slide_media p {
+    text-align: center;
+    font-size: 45px;
+}
+
 /* SNS */
 .sns h2 {
     text-align: center;
