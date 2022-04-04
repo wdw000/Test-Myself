@@ -9,5 +9,8 @@
 ## 사용한 것들
 ### HTML, CSS, JavaScript, jQuery
 
-
+## 배운것
+### HTML 기능 복습
+### CSS 화면 배치
+### JavaScript DOM 조작
 
