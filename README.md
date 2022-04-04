@@ -1,4 +1,13 @@
-# clone
-https://www.hddfs.com/store/kr/dm/main.do
-### mdn에서 html, css, 자바스크립트 공부 후 사이트 따라하기
+# 현대백화점 메인페이지 따라 만들기
+
+## 현대백화점 메인페이지
+### https://www.hddfs.com/store/kr/dm/main.do
+
+## 주요기능
+### CSS, JavaScript 및 jQuery를 사용하여 만든 슬라이드쇼, 애니메이션
+
+## 사용한 것들
+### HTML, CSS, JavaScript, jQuery
+
+
 
